@@ -41,7 +41,7 @@ export default function Banner() {
         <div className="w-8/12 flex justify-between items-center mx-auto">
           <div className="flex flex-col w-[610px] mt-[125px]">
             <span className="absolute border-[55px] border-[#D9D9D9]  rounded-full left-[471px] top-[-40px]"></span>
-            <img className="absolute w-[121px] top-[620px] left-[1050px]" src={BannerFoto}/>
+            <img className="absolute w-[121px] top-[400px] left-[800px]" src={BannerFoto}/>
             <div className="flex flex-col items-start text-start">
               <h2 className="text-[20px] text-[#000000] dark:text-[#FFFFFF]">{t('greeting')}</h2>
               <h1 className="text-[25px] text-[#0A0A14] font medium mt-3 relative z-50 dark:text-[#FFFFFF]">{t('mainText')}</h1>
@@ -60,7 +60,7 @@ export default function Banner() {
               </p>
             </footer>
           </div>
-          <img className="absolute border-[20px] border-[#D9D9D9] dark:border-[#525252] border-transparent rounded-full left-[1000px] top-[380px]" src={Ellipse}/>
+          <img className="absolute border-[20px] border-[#D9D9D9] dark:border-[#525252] border-transparent rounded-full left-[1000px] top-[525px]" src={Ellipse}/>
         </div>
       </section>
     </div>
