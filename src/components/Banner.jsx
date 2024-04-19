@@ -42,8 +42,8 @@ export default function Banner() {
         <div className="w-8/12 flex justify-between items-center mx-auto">
           <div className="flex flex-col w-[610px] mt-[125px]">
             <span className="absolute border-[55px] border-[#D9D9D9]  rounded-full left-[471px] top-[-40px]"></span>
-            <img className="absolute w-[270px] top-[175px] left-[895px]" src={BannerFoto}/>
-            <img className="absolute w-[270px] top-[175px] left-[895px]" src={RectangleFoto}/> 
+            <img className="absolute w-[270px] top-[175px] left-[895px] z-1" src={RectangleFoto} /> 
+            <img className="absolute w-[270px] top-[175px] left-[895px] z-2" src={BannerFoto}/>
             <div className="flex flex-col items-start text-start">
               <h2 className="text-[20px] text-[#000000] dark:text-[#FFFFFF]">{t('greeting')}</h2>
               <h1 className="text-[25px] text-[#0A0A14] font medium mt-3 relative z-50 dark:text-[#FFFFFF]">{t('mainText')}</h1>
