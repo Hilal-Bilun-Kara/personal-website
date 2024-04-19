@@ -36,7 +36,7 @@ export default function Project() {
                 <div className="flex">
                     {projects.map((project, index) => (
                         <div key={index} className={`w-104 ml-6 mr-20 ${index === 0 ? "" : "project-card"}`}>
-                            <Card body inverse className="text-left mt-10 bg-blue-200 border-blue-200 rounded-lg w-11/12 ml-36 mr-20">
+                            <Card body inverse className="text-left mt-10 bg-blue-200 border-blue-200 rounded-lg w-10/12 ml-36 mr-20">
                                 <CardBody>
                                     <CardTitle className="mb-6 font-bold text-2xl text-black font-playfair-display">{project.title}</CardTitle>
                                     <CardText className='text-[#000000]'>{project.description}</CardText>
