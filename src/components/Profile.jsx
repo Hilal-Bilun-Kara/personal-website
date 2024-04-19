@@ -43,8 +43,8 @@ Lisans, 2016</p>
 
     <div className="text-left right-4">
           <p className="text-xl font-semibold text-gray-800 mb-10 text-playfair-display dark:text-[#FFFFFF]">{t("about")}</p>
-          <p className="text-gray-600 mb-5 dark:text-[#FFFFFF]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.</p>
-          <p className="text-gray-600 dark:text-[#FFFFFF]">Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! </p>
+          <p className="text-gray-600 mb-5 dark:text-[#FFFFFF]">{t("abouttext")}</p>
+          <p className="text-gray-600 dark:text-[#FFFFFF]">{t("abouttext1")}</p>
         </div>
 
     </div>

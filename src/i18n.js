@@ -22,6 +22,8 @@ const resources = {
       education:"Education",
       role:"Preferred Role",
       about:"About me",
+      abouttext:"I possess technical skills such as website creation, updating, CRM, and database management, along with soft skills competencies like effective communication, teamwork, adaptability and motivation.",
+      abouttext1:"In addition to the technical skills I acquired in the Department of Mathematics, I also value the social skills I acquired throughout my business life and seek out opportunities that can contribute to my development.",
       ViewonGithub:"View on Github",
       goToApp:"Go to App",
       footer:"Let’s work together on your next product."
@@ -49,6 +51,8 @@ residence: "İkamet",
 education: "Eğitim",
 role: "Tercih Edilen Rol",
 about:"Hakkımda",
+abouttext:"Web sitesi oluşturma, güncelleme, CRM ve veritabanı yönetimi gibi teknik becerilerimle birlikte etkili iletişim, takım çalışması, uyum ve motivasyon gibi softskills yeterliliklere de sahibim.",
+abouttext1:"Matematik Bölümü'nde edindiğim teknik yeteneklerin yanı sıra çalışma yaşamının getirdiği softskills becerilerine de önem veriyor ve gelişimime katkı sunabilecek fırsatları araştırıyorum.",
 ViewonGithub:"Github'da Görüntüle",
 goToApp:"Uygulamaya Git",
 footer:"Bir sonraki ürününüz üzerinde birlikte çalışalım."
