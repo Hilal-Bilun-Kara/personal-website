@@ -28,7 +28,7 @@ export default function Banner() {
     
     return(
         <div  className={darkMode ? 'dark' : ''}>
-        <section className={`w-screen dark:bg-[#2A262B] h-screen' overflow-hidden relative px-0`}>
+        <section className={`w-screen bg-[#F4F4F4] dark:bg-[#2A262B] h-screen' overflow-hidden relative px-0`}>
             <DarkMode darkMode={darkMode} setDarkMode={setDarkMode}/>
             <Link className="text-[#EA2678] ml-[150vh]" to={i18n.lng === '/en' ? '/tr' : '/en'} onClick={() => clickHandle(i18n.language === 'en' ? 'tr' : 'en')}>
                 {i18n.language === 'en' ? 'Türkçe\'ye Geç' : 'Switch to English'}</Link>

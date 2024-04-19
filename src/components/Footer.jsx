@@ -19,7 +19,7 @@ export default function Footer() {
                     <a href={`https://github.com/Hilal-Bilun-Kara`} className="text-blue-500 text-xl block mb-4">Github</a>
                     <a className="text-black text-xl block mb-4">Personal Blog</a>
                     <a href={`https://linkedin.com/in/hilal-bilun-kara`} className="text-blue-500 text-xl block mb-4">Linkedin</a>
-                    <a href={`mailto:email@example.com`} className="text-red-600 text-xl block mb-4">Email</a>
+                    <a href={`mailto:hilalbilunkara@gmail.com`} className="text-red-600 text-xl block mb-4">Email</a>
                 </section>
             </div>
         </div>
