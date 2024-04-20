@@ -3,16 +3,13 @@ import Ellipse2 from "../assets/Ellipse2.svg";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 
-
-
 export default function Profile() {
   const { darkMode } = useContext(UserContext);
   const { t } = useTranslation();
-  
   const informationData = [
-    { title: "date", content: "06.04.1999" },
-    { title: "residence", content: "İstanbul" },
-    { title: "education", content: t("university") },
+    { title: "date", content: "24.03.1996" },
+    { title: "residence", content: "Ankara" },
+    { title: "education", content: t("univercity") },
     { title: "role", content: "Frontend, UI" }
   ];
 
